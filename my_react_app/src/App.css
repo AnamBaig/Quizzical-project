@@ -1,0 +1,178 @@
+.parent--start {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(246, 234, 250);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.start--game {
+    border-radius: 30px;
+    font-family: "Quicksand-Medium";
+    height: 75px;
+    width: 300px;
+    font-size: 30px;
+    background-color: #605491;
+    color: white;
+    margin-top: 9px;
+}
+
+.title {
+    color: #351f8a;
+    margin-bottom: 0px;
+    font-family: "Quicksand-Medium";
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+.info {
+    color:#351f8a;
+    font-family: "Quicksand-Medium";
+    
+}
+
+.components--start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.start--game:hover {
+    /**color: white;**/
+    cursor: pointer;
+}
+
+.answer--buttons {
+    border-radius: 50px;
+    font-family: "Quicksand-Medium";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.answer--buttons:hover {
+    background-color: #6f60c5;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.easy {
+    border-radius: 30px;
+    font-family: "Quicksand-Medium";
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #3bc519;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.easy:hover {
+    background-color: #427c23;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.medium {
+    border-radius: 30px;
+    font-family: "Quicksand-Medium";
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #eb9707;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.medium:hover {
+    background-color: #fab958;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.hard {
+    border-radius: 30px;
+    font-family: "Quicksand-Medium";
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #e83c15;
+    color: white;
+    margin-top: 10px;
+}
+
+.hard:hover {
+    background-color: #d80707;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.buttons--container {
+   display: block;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 140px;
+}
+
+.modes--container {
+    display: flex;
+}
+
+.answer--button--selected {
+    border-radius: 50px;
+    font-family: "Quicksand-Medium";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #087f42;
+    border-color: #dfefaf;
+    border-width: 5px;
+    color: white;
+}
+
+@font-face {
+    font-family: "Quicksand-medium";
+    src: local("Quicksand-Medium"),
+    url("./fonts/Quicksand-Medium.ttf") format("truetype");
+  }
+
+
+
+.container {
+    display: block;
+    position: flex;
+    top: 50%;
+    left: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.question--text {
+    font-family: "Quicksand-Medium";
+    color: #351f8a;
+}
